@@ -175,7 +175,27 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
+				RelativePath=".\caesar.c"
+				>
+			</File>
+			<File
 				RelativePath=".\CyclicList.c"
+				>
+			</File>
+			<File
+				RelativePath=".\dulinklist.c"
+				>
+			</File>
+			<File
+				RelativePath=".\dulinklistPractice.c"
+				>
+			</File>
+			<File
+				RelativePath=".\Joseph.c"
+				>
+			</File>
+			<File
+				RelativePath=".\JosephUp.c"
 				>
 			</File>
 			<File
@@ -187,11 +207,27 @@
 				>
 			</File>
 			<File
+				RelativePath=".\loop.c"
+				>
+			</File>
+			<File
+				RelativePath=".\Magician.c"
+				>
+			</File>
+			<File
+				RelativePath=".\Stack.c"
+				>
+			</File>
+			<File
 				RelativePath=".\StaticList.c"
 				>
 			</File>
 			<File
 				RelativePath=".\work1.c"
+				>
+			</File>
+			<File
+				RelativePath=".\work2.c"
 				>
 			</File>
 		</Filter>
