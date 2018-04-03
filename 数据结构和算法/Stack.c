@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+//#include <stdio.h>
+//#include <stdlib.h>
 //栈是一个种重要的线性结构，可以这样讲，栈是前面
 //讲过的线性表的一种具体形式
 //栈这种后进先出的数据结构应用是非常广泛的。在生活中
@@ -79,11 +79,39 @@
 //}
 
 //清空一个栈，就是将栈中的元素全部作废，但栈本身物理空间并不发生改变（不是销毁）
-//因此我们只要将s->top的内容赋值给s->base即可，这样s->
-int main()
-{
+//因此我们只要将s->top的内容赋值给s->base即可，这样s->base等于s->top,也就表明
+//这个栈是空的了。这个原理跟高级格式化只是但单纯地清空文件列表而没有覆盖的原理是一样的
+//ClearStack(sqStack *s)
+//{
+//	s->top=s->base;
+//}
+//销毁一个栈与清空一个栈不同，销毁一个栈是要释放掉该栈所占据的物理内存空间，因此不要把销毁
+//一个栈与清空一个栈这两种操作混淆
+//计算栈的当前容量也就是计算栈中元素的个数，因此只要返回s.top-s.base即可。
+//注意，栈的最大容量是指该栈占据内存空间的大小，其值是s.stackSize，它与栈的
+//当前容量不是一个概念。
+//计算栈的当前容量
 
-
-	system("pause");
-	return 0;
-}
+//int StackLen(sqStack s)
+//{
+//	return (s.top-s.base);    //指针之间不能相加的可以相减也可以++或者--
+//}
+//DestroyStack(sqStack *s)
+//{
+//	int i,len;
+//	len=s->stackSize;
+//	for(i=0;i<len;i++)
+//	{
+//		free(s->base);
+//		s->base++;
+//	}
+//	s->base=s->top=NULL;
+//	s->stackSize=0;
+//}
+//int main()
+//{
+//
+//
+//	system("pause");
+//	return 0;
+//}
