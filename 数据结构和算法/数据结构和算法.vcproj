@@ -199,6 +199,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\fib.c"
+				>
+			</File>
+			<File
+				RelativePath=".\InfixToSuffix.c"
+				>
+			</File>
+			<File
 				RelativePath=".\Joseph.c"
 				>
 			</File>
@@ -236,6 +244,22 @@
 			</File>
 			<File
 				RelativePath=".\work2.c"
+				>
+			</File>
+			<File
+				RelativePath=".\汉诺塔.c"
+				>
+			</File>
+			<File
+				RelativePath=".\递归.c"
+				>
+			</File>
+			<File
+				RelativePath=".\队列.c"
+				>
+			</File>
+			<File
+				RelativePath=".\队列顺序存储结构.c"
 				>
 			</File>
 		</Filter>
