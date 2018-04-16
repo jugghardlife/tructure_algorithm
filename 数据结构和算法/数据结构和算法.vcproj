@@ -215,6 +215,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\kmp.c"
+				>
+			</File>
+			<File
+				RelativePath=".\kmptest.c"
+				>
+			</File>
+			<File
 				RelativePath=".\list.cpp"
 				>
 			</File>
@@ -231,6 +239,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\parent.c"
+				>
+			</File>
+			<File
+				RelativePath=".\parent_child.c"
+				>
+			</File>
+			<File
 				RelativePath=".\Stack.c"
 				>
 			</File>
@@ -244,6 +260,30 @@
 			</File>
 			<File
 				RelativePath=".\work2.c"
+				>
+			</File>
+			<File
+				RelativePath=".\二叉树.c"
+				>
+			</File>
+			<File
+				RelativePath=".\二叉树的存储结构.c"
+				>
+			</File>
+			<File
+				RelativePath=".\二叉树的性质.c"
+				>
+			</File>
+			<File
+				RelativePath=".\八皇后.c"
+				>
+			</File>
+			<File
+				RelativePath=".\字符串.c"
+				>
+			</File>
+			<File
+				RelativePath=".\树.c"
 				>
 			</File>
 			<File
