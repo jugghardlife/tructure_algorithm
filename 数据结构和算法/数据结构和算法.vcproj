@@ -275,6 +275,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\二叉树的遍历.c"
+				>
+			</File>
+			<File
 				RelativePath=".\八皇后.c"
 				>
 			</File>
